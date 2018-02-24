@@ -1,1 +1,11 @@
+/*Local Changes*/
+body{
+	background:url('assets/brick-sm.jpg');
+}
+
+.footer, h1 {
+	background-color: white;
+}
+
 /* You can add global styles to this file, and also import other style files */
+/*>>>>>>> External Changes*/

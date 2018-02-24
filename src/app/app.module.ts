@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { PizzaMakerComponent } from './pizza-maker/pizza-maker.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PizzaMakerComponent
   ],
   imports: [
     BrowserModule
