@@ -1,10 +1,17 @@
-# PizzaLand
-A Single Pace Application of a ficticious pizza place to demonstrate:
+# PizzaLand v.1.0.0
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.1.
+
+PizzaLand is a Single Pace Application of a ficticious pizza place to demonstrate:
 <ul>
-	<1i>Angular Reactive Forms</li>
+		<li>Angular Reactive Forms</li>
 		<li>DataBinding</li>
 		<li>Map Collections</li>
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.1.
+		<li>Bootstrap Grid</li>
+		</ul>
+
+Completed Version 1 will be client side only.
+
+<i>The following Notes were generated with the Angular Package and I am leaving them there for now.</i>
 
 ## Development server
 
