@@ -6,7 +6,8 @@ PizzaLand is a Single Pace Application of a ficticious pizza place to demonstrat
 		<li>Angular Reactive Forms</li>
 		<li>DataBinding</li>
 		<li>Map Collections</li>
-		<li>Bootstrap Grid</li>
+		<li>Bootstrap 4 CSS Only:https://getbootstrap.com</li>
+		<li>ngbootstrap https://github.com/ng-bootstrap/ng-bootstrap </li>
 		</ul>
 
 Completed Version 1 will be client side only.

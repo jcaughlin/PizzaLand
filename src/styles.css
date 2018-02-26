@@ -2,6 +2,9 @@
 body {
 	background-color: #f2f2f2;
 }
+img {
+	max-width: 100%;
+}
 .container{
 	background:url('assets/brick-sm.jpg');
 }
@@ -15,10 +18,26 @@ nav {
 }
 .header {
 	background-color:#ce2b37;
-	border-bottom:2rem solid #009246;
+	/*border-bottom:2rem solid #009246;*/
 }
 .footer {
 	border-top:2rem solid #009246; 
+}
+
+.green {
+	background-color:#009246;
+}
+
+.red {
+	background-color:#ce2b37;
+}
+
+#sidebar {
+	background-color:#f2f2f2;
+}
+#order {
+	background-color:#f2f2f2;
+	border:2rem solid black;
 }
 
 /*

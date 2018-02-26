@@ -1,50 +1,72 @@
 <div class="container">
 	<!--Begin Header Row-->
 	<div class="row pt-5 header">
-		<div class="col-lg-3">
-		</div>
-	
+		<div class="col-lg-3"></div>
 		<div class="col-lg-6">
-			<h1 class="py-2 text-center">Welcome to {{ title }}!</h1>
+			<h1 class="dislay-1 py-2 text-center">
+				Welcome to {{ title }}!
+			</h1>
 		</div>
-		
-		<div class="col-lg-3">
+		<div class="col-lg-3"></div>
+		<div class="col-lg-12 green">
+			<h6 class="text-center py-1">
+				260 Belleville Turnpike North Arlington NJ 07031 201-998-9095
+			</h6>
 		</div>
 	</div><!--End Header Row-->
-		
-	
 
 	<hr>
 	<div class="row">
 		<div class="col-lg-6">
-	<p><strong>Lorem ipsum dolor sit amet consectetur adipiscing elit neque ligula, sagittis condimentum etiam convallis posuere aliquet cras netus volutpat potenti, quisque ullamcorper hac eros habitasse massa pharetra purus. Semper fermentum aliquet platea fames pretium aptent hendrerit, leo nibh malesuada himenaeos nascetur faucibus natoque sed, nostra porttitor ridiculus vitae magna commodo. Quis turpis per etiam urna vulputate nunc cursus, dui felis cubilia aenean imperdiet semper penatibus potenti, praesent conubia molestie libero nascetur et. Sodales parturient ultrices nec proin placerat faucibus mauris, consequat penatibus purus odio aliquet nam non, posuere pharetra convallis netus condimentum aliquam. Est in non mollis orci mi hac consequat penatibus, molestie rhoncus nascetur risus inceptos aliquam dignissim nullam nec, tellus purus commodo mus enim mauris cum. Vivamus convallis orci luctus feugiat curae id iaculis natoque massa litora sodales risus, semper ligula eleifend egestas cursus quisque justo commodo ac sapien. Himenaeos eu viverra vitae curabitur sapien nostra quam suscipit, facilisis scelerisque auctor rutrum dis nec laoreet mauris, aliquam enim suspendisse pharetra penatibus tortor donec.
-
-Iaculis nulla lectus donec placerat curae ullamcorper viverra habitant eleifend turpis tempus, ac curabitur montes varius magna fusce aenean sed diam massa. Morbi augue accumsan porttitor class luctus fusce facilisis rhoncus venenatis tellus gravida nisl id, cursus habitant sed metus purus mollis ad integer duis magna montes. Primis porttitor dis nunc magna ultricies eros erat iaculis orci, leo euismod lectus tempor natoque vel dictumst cras nullam hendrerit, sociosqu massa mauris auctor mi elementum suspendisse dapibus. Placerat aliquet fringilla ut aliquam interdum imperdiet nec nulla urna, donec inceptos etiam class aenean duis sed ac, habitasse dictumst mattis luctus parturient nam fermentum elementum. Pulvinar ridiculus sociis venenatis ad pellentesque inceptos litora dis molestie per sociosqu, phasellus taciti tellus orci parturient rutrum sed neque placerat semper. Taciti tempus justo potenti hac class lectus senectus scelerisque eros, sed volutpat vitae mattis auctor iaculis ultricies curae facilisis, nulla porta ridiculus suspendisse lobortis purus nisi gravida.</strong></p>
-	</div>
-</div>
-
-<div class="col-lg-6">
-</div>
-	
-	
-	<!--Start Row-->
-	<div class="row py-3 footer">
-		<div id="vcard" class="vcard">
-			<h3>Location</h3>
-			<a class="url fn n" href="http://www.pizzalandonline.com"></a>
-			<div class="org">Pizza Land</div>
-			<div class="adr">
-				<div class="street-address">260 Belleville Turnpike</div>
-				<span class="locality">North Arlington</span> , 
-				<span class="region">NJ</span> , 
-				<span class="postal-code">07031</span>
+			<div id="sidebar">
+				<h3 class="red text-center">
+					"The (in)Famous PizzaLand"
+				</h3><img src="../assets/pizzaland.jpg" alt="Image of PizzaLand Restaurant">
+				<blockquote class="blockquote">
+					<em>“Best In The State, Far As I’m Concerned.”<strong>-Tony S</strong></em>
+				</blockquote>
+				<blockquote class="blockquote">
+					<em>“Cleanest Men's room in Jersey.”<strong>-Paulie W</strong></em>
+				</blockquote>
+				<blockquote class="blockquote">
+					<em>“The pizza is great, but the baked ziti is out of this world"<strong>-Beansie G.</strong></em>
+				</blockquote>
 			</div>
-			<div class="tel">201-998-9095</div>
-			<p style="font-size:smaller;">
-				This <a href="http://microformats.org/wiki/hcard">hCard</a> created with the <a href="http://microformats.org/code/hcard/creator">hCard creator</a>.
-			</p>
 		</div>
-			
+		<div class="col-lg-6">
+			<div id="order">
+				<app-pizza-maker></app-pizza-maker>
+			</div>
+		</div>
+	</div><!--Start Row-->
+	<div class="row py-3 footer">
+		<div class="col-lg-3">
+			<div class="green p-2">
+			<h3>"Our Story"</h3>
+			<blockquote class="blockquote">We make pizza. You eat it. That's our story.</blockquote>
+		</div>
+	</div>
+	
+		<div class="col-lg-6"><p>{{date | date: 'yyyy'}}</p></div>
+		
+		<div class="col-lg-3">
+			<!--This <a href="http://microformats.org/wiki/hcard">hCard</a> created with the <a href="http://microformats.org/code/hcard/creator">hCard creator</a>.-->
+			<div id="vcard" class="vcard p-2">
+				<h3>
+					Location
+				</h3><a class="url fn n" href="http://www.pizzalandonline.com"></a>
+				<div class="org">
+					Pizza Land
+				</div>
+				<div class="adr">
+					<div class="street-address">
+						260 Belleville Turnpike
+					</div><span class="locality">North Arlington</span> <span class="region">NJ</span> <span class="postal-code">07031</span>
+				</div>
+				<div class="tel">
+					201-998-9095
+				</div>
+			</div>
+		</div>
 	</div><!--End Row-->
 </div><!--End Container-->
-
