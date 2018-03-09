@@ -6,6 +6,7 @@ import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { PizzaMakerComponent } from './pizza-maker/pizza-maker.component';
+import { PizzaMakerService } from './pizza-maker.service';
 
 
 

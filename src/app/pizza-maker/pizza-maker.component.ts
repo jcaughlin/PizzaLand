@@ -14,14 +14,15 @@ interface pizzaToppings {
 })
 export class PizzaMakerComponent implements OnInit {
 
-  constructor(private pizzaTopping: PizzaMakerService) { }
+  constructor(private pizzaToppings: PizzaMakerService) { }
   
   public pizzaMaker: pizzaToppings[];
 
   ngOnInit() {
-    this.pizzaMaker = this.getAvailablePizzaToppings()
+    this.pizzaMaker = this.pizzaToppings.getAvailablePizzaToppings()
   	.map(x => ({name: x, checked: false}));
   }
 
 }
+
   

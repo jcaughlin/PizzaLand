@@ -1,8 +1,12 @@
-<h3>Order Your Pie!<h3>
-	<!--><span *ngFor='let toppings of pizzaMaker'>
-	  <label>
-	    <input type='checkbox' [(ngModel)]='toppings.checked' />
-	    {{ toppings.name }}
-	  </label>
-	</span>
--->
+
+<h3 class="text-center">Order Your Pie!<h3>
+
+
+
+
+<span *ngFor="let pizzaToppings of pizzaMaker">
+	<label>
+	<input type='checkbox' [(ngModel)]='pizzaToppings.checked'/>
+	{{pizzaToppings.name}}
+</label>
+</span>
